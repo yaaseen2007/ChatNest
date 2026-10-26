@@ -1,27 +1,36 @@
 # Django Chat Application
 
-## About
-A chat application built using Python and Django.
+A simple chat application built using Django that allows users to register, log in, find other users, and exchange messages.
 
 ## Features
-- User authentication
-- User accounts
-- Chat functionality
+- User registration and login
+- View registered users
+- Search for users
+- Send messages to other users
+- View conversations
+- Display message sender, content, and timestamp
 
 ## Technologies Used
 - Python
 - Django
-- HTML and CSS
 - SQLite
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
-## How to Run Locally
-1. Clone the repository.
-2. Install the required packages using `pip install -r requirements.txt`.
-3. Run database migrations using `python manage.py migrate`.
-4. Start the server using `python manage.py runserver`.
+## How It Works
+1. Users create accounts and log in.
+2. Users can search for and select another user.
+3. Messages are stored in the database.
+4. Users can view messages in their conversations.
 
-## Project Status
-Local development completed. Online deployment planned.
+## Run Locally
+```bash
+python manage.py runserver
+```
 
-## Source Code
-Available in this GitHub repository.
+Open `http://127.0.0.1:8000/` in your browser.
+
+## Note
+This project helped me practise Django authentication, database relationships, query filtering, and handling messages between users.
